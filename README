@@ -1,0 +1,39 @@
+Program: jetAlgo
+--------------------------------------------------------------------------------
+
+Description:
+  
+  Analysis "jet of jet" and "wide jet" algorithms
+--------------------------------------------------------------------------------
+
+Content:
+  
+  makefile	  : MakeFile for build program
+  main.C	  : main file
+
+  source	  : Source files
+  include	  : Include files
+--------------------------------------------------------------------------------
+
+System Requirements:
+
+  - ROOT CERN Library (https://root.cern.ch)
+  - FasJet Library (http://www.fastjet.fr/)
+    ("fastjet-install" need install in jetAlgo directory)
+--------------------------------------------------------------------------------
+
+Syntax: for help execute: ./jetAlgo
+
+Example:
+
+./jetAlgo inputDelphesFile.root --allJet --rec --gen --verbose --ns=25 --stepR=0.05 --analysis -output=output.root
+
+Delphes: https://cp3.irmp.ucl.ac.be/projects/delphes
+
+--------------------------------------------------------------------------------
+
+Support:
+
+  Shchablo@gmail.com
+--------------------------------------------------------------------------------
+
